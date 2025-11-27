@@ -1,0 +1,95 @@
+.result-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.result-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.result-card h1 {
+    color: var(--text-primary);
+}
+
+.score-circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 10px solid var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(14, 165, 233, 0.2);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.stat-item .label {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-item .value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.resources-section {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.resources-section h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.resource-link {
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--text-primary);
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.resource-link:hover {
+    border-color: var(--accent-color);
+    background: rgba(14, 165, 233, 0.1);
+}
+
+.actions {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}

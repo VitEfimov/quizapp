@@ -1,0 +1,555 @@
+{
+    "topic": "Spring Boot",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which annotation marks the main class of a Spring Boot application?",
+            "options": [
+                "@SpringBootApplication",
+                "@EnableAutoConfiguration",
+                "@Component",
+                "@Configuration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is TRUE about Spring Boot starters?",
+            "options": [
+                "Starters provide a set of dependencies for a feature",
+                "Starters are runtime servers",
+                "Starters replace Spring Framework",
+                "Starters are used to deploy applications only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 3,
+            "question": "Which annotation is used to inject dependencies by type?",
+            "options": [
+                "@Autowired",
+                "@Inject",
+                "@Resource",
+                "@Qualifier"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is TRUE about @RestController?",
+            "options": [
+                "It combines @Controller and @ResponseBody",
+                "It is used only for scheduled tasks",
+                "It is equivalent to @Component",
+                "It can only handle GET requests"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 5,
+            "question": "Which annotation is used to define a repository for Spring Data JPA?",
+            "options": [
+                "@Repository",
+                "@Service",
+                "@Component",
+                "@Entity"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is TRUE about Spring Boot AutoConfiguration?",
+            "options": [
+                "Automatically configures beans based on classpath dependencies",
+                "Replaces manual configuration entirely",
+                "Automatically scans for database schemas",
+                "Requires explicit XML configuration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 7,
+            "question": "Which annotation is used to bind external configuration properties to a class?",
+            "options": [
+                "@ConfigurationProperties",
+                "@Value",
+                "@PropertySource",
+                "@Bean"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 8,
+            "question": "Which of the following is TRUE about Spring Boot Actuator?",
+            "options": [
+                "Provides endpoints to monitor and manage the application",
+                "Is used to deploy microservices",
+                "Automatically logs exceptions",
+                "Replaces Spring MVC"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 9,
+            "question": "Which annotation is used to handle HTTP GET requests in Spring Boot?",
+            "options": [
+                "@GetMapping",
+                "@PostMapping",
+                "@RequestMapping",
+                "@DeleteMapping"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 10,
+            "question": "Which annotation allows mapping a URL parameter to a method argument?",
+            "options": [
+                "@RequestParam",
+                "@PathVariable",
+                "@RequestBody",
+                "@QueryParam"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 11,
+            "question": "Which annotation allows mapping path variables in a REST endpoint?",
+            "options": [
+                "@PathVariable",
+                "@RequestParam",
+                "@RequestBody",
+                "@QueryParam"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 12,
+            "question": "Which of the following is TRUE about @SpringBootTest?",
+            "options": [
+                "Used for integration testing with Spring context",
+                "Used for unit tests without Spring context",
+                "Automatically mocks all beans",
+                "Replaces JUnit entirely"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 13,
+            "question": "Which property file is loaded by default in Spring Boot?",
+            "options": [
+                "application.properties",
+                "config.properties",
+                "spring.properties",
+                "boot.properties"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 14,
+            "question": "Which annotation marks a service layer class in Spring Boot?",
+            "options": [
+                "@Service",
+                "@Component",
+                "@Repository",
+                "@Controller"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 15,
+            "question": "Which annotation marks a class as a JPA entity?",
+            "options": [
+                "@Entity",
+                "@Table",
+                "@Repository",
+                "@Service"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 16,
+            "question": "Which annotation is used to configure a bean in a Spring configuration class?",
+            "options": [
+                "@Bean",
+                "@Component",
+                "@Service",
+                "@Repository"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 17,
+            "question": "Which of the following is TRUE about Spring Boot Profiles?",
+            "options": [
+                "Profiles allow environment-specific configurations",
+                "Profiles automatically change database schema",
+                "Profiles can only be used with XML configuration",
+                "Profiles are used to schedule tasks"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 18,
+            "question": "Which annotation allows reading a single property value from a properties file?",
+            "options": [
+                "@Value",
+                "@ConfigurationProperties",
+                "@Autowired",
+                "@Qualifier"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 19,
+            "question": "Which of these is TRUE about Spring Boot DevTools?",
+            "options": [
+                "Provides automatic restart and live reload for development",
+                "Is required for production deployment",
+                "Replaces Spring Actuator",
+                "Compiles Java code automatically in production"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 20,
+            "question": "Which of the following annotations is used to create a scheduled task?",
+            "options": [
+                "@Scheduled",
+                "@Async",
+                "@Task",
+                "@Timer"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 21,
+            "question": "Which of the following is TRUE about Spring Boot embedded servers?",
+            "options": [
+                "Spring Boot can run with embedded Tomcat, Jetty, or Undertow",
+                "Embedded servers are mandatory in production",
+                "Embedded servers replace the operating system",
+                "Spring Boot cannot run without XML configuration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 22,
+            "question": "Which annotation marks a configuration class in Spring Boot?",
+            "options": [
+                "@Configuration",
+                "@Component",
+                "@Service",
+                "@Repository"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 23,
+            "question": "Which annotation is used to create a REST endpoint that consumes JSON?",
+            "options": [
+                "@RequestBody",
+                "@RequestParam",
+                "@PathVariable",
+                "@QueryParam"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 24,
+            "question": "Which of the following is TRUE about Spring Boot CLI?",
+            "options": [
+                "Allows running Groovy scripts as Spring applications",
+                "Compiles Java classes automatically",
+                "Replaces Maven or Gradle entirely",
+                "Deploys applications to cloud automatically"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 25,
+            "question": "Which annotation is used for exception handling in Spring MVC?",
+            "options": [
+                "@ControllerAdvice",
+                "@ExceptionHandler",
+                "@RestController",
+                "@Service"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 26,
+            "question": "Which annotation allows qualifying beans when multiple candidates exist?",
+            "options": [
+                "@Qualifier",
+                "@Autowired",
+                "@Resource",
+                "@Inject"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 27,
+            "question": "Which annotation marks a field for dependency injection of a specific bean?",
+            "options": [
+                "@Autowired",
+                "@Inject",
+                "@Resource",
+                "@Value"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 28,
+            "question": "Which of these is TRUE about Spring Boot health checks?",
+            "options": [
+                "Provided by Actuator endpoints like /actuator/health",
+                "Require XML configuration",
+                "Replace database monitoring tools",
+                "Only work with REST APIs"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 29,
+            "question": "Which annotation is used to enable scheduling in Spring Boot?",
+            "options": [
+                "@EnableScheduling",
+                "@Scheduled",
+                "@EnableAsync",
+                "@Async"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 30,
+            "question": "Which annotation allows Spring Boot to scan components automatically?",
+            "options": [
+                "@ComponentScan",
+                "@SpringBootApplication",
+                "@Configuration",
+                "@EnableAutoConfiguration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 31,
+            "question": "Which of the following is TRUE about Spring Boot properties binding?",
+            "options": [
+                "Properties can be bound to classes using @ConfigurationProperties",
+                "Properties are read-only and cannot be bound",
+                "Properties must be hard-coded in Java",
+                "Properties are automatically converted to JSON"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 32,
+            "question": "Which annotation defines a component that provides business logic?",
+            "options": [
+                "@Service",
+                "@Controller",
+                "@Repository",
+                "@Component"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 33,
+            "question": "Which of the following is TRUE about Spring Boot profiles?",
+            "options": [
+                "Profiles allow running different configurations for dev, test, prod environments",
+                "Profiles are used only for database configuration",
+                "Profiles are deprecated",
+                "Profiles automatically deploy applications"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 34,
+            "question": "Which annotation is used to create REST API documentation in Spring Boot with Swagger?",
+            "options": [
+                "@EnableSwagger2",
+                "@SwaggerDoc",
+                "@ApiDoc",
+                "@OpenAPI"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 35,
+            "question": "Which of the following is TRUE about Spring Boot DevTools?",
+            "options": [
+                "Enables automatic application restart and live reload",
+                "Is mandatory in production",
+                "Replaces JUnit testing",
+                "Compiles code for deployment"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 36,
+            "question": "Which annotation allows asynchronous execution of methods?",
+            "options": [
+                "@Async",
+                "@Scheduled",
+                "@EnableAsync",
+                "@Threaded"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 37,
+            "question": "Which annotation is used to configure Spring Boot application properties?",
+            "options": [
+                "@ConfigurationProperties",
+                "@Value",
+                "@PropertySource",
+                "@EnableConfiguration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 38,
+            "question": "Which of these is TRUE about Spring Boot embedded Tomcat?",
+            "options": [
+                "Spring Boot can run web applications without external servers",
+                "Embedded Tomcat must be installed separately",
+                "Embedded Tomcat cannot serve REST endpoints",
+                "Embedded Tomcat replaces the OS web server entirely"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 39,
+            "question": "Which annotation is used to handle exceptions globally in Spring Boot?",
+            "options": [
+                "@ControllerAdvice",
+                "@RestController",
+                "@ExceptionHandler",
+                "@Service"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 40,
+            "question": "Which annotation allows mapping HTTP POST requests?",
+            "options": [
+                "@PostMapping",
+                "@GetMapping",
+                "@RequestMapping",
+                "@PatchMapping"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 41,
+            "question": "Which of the following is TRUE about Spring Boot logging?",
+            "options": [
+                "Uses default Logback configuration if no logging framework is provided",
+                "Logging must be configured manually always",
+                "Logging replaces exceptions",
+                "Logging is not supported for REST APIs"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 42,
+            "question": "Which annotation is used to create a REST endpoint returning JSON?",
+            "options": [
+                "@RestController",
+                "@Controller",
+                "@Service",
+                "@Repository"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 43,
+            "question": "Which of these annotations enables transaction management in Spring Boot?",
+            "options": [
+                "@EnableTransactionManagement",
+                "@Transactional",
+                "@Service",
+                "@Repository"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 44,
+            "question": "Which annotation is used to mark a class as a Spring MVC controller?",
+            "options": [
+                "@Controller",
+                "@RestController",
+                "@Service",
+                "@Component"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 45,
+            "question": "Which annotation enables asynchronous method execution in Spring Boot?",
+            "options": [
+                "@EnableAsync",
+                "@Async",
+                "@Scheduled",
+                "@Service"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 46,
+            "question": "Which of the following is TRUE about Spring Boot dependencies?",
+            "options": [
+                "Starters simplify dependency management for common functionalities",
+                "Dependencies must be managed manually always",
+                "Dependencies are not required for REST APIs",
+                "Dependencies replace Java standard libraries"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 47,
+            "question": "Which annotation allows mapping an entire request path to a method?",
+            "options": [
+                "@RequestMapping",
+                "@GetMapping",
+                "@PostMapping",
+                "@PathVariable"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 48,
+            "question": "Which annotation is used for field-based injection in Spring Boot?",
+            "options": [
+                "@Autowired",
+                "@Inject",
+                "@Resource",
+                "@Value"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 49,
+            "question": "Which annotation allows scheduling a method to run at fixed intervals?",
+            "options": [
+                "@Scheduled",
+                "@Async",
+                "@EnableAsync",
+                "@Task"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 50,
+            "question": "Which annotation allows component scanning in a package and sub-packages?",
+            "options": [
+                "@ComponentScan",
+                "@Configuration",
+                "@SpringBootApplication",
+                "@EnableAutoConfiguration"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

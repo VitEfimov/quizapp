@@ -1,0 +1,555 @@
+{
+    "topic": "JavaScript",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the output of the following code?\n\nconsole.log(typeof null);",
+            "options": [
+                "'object'",
+                "'null'",
+                "'undefined'",
+                "'number'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is TRUE about JavaScript variables declared with 'var'?",
+            "options": [
+                "They are function-scoped",
+                "They are block-scoped",
+                "They are immutable constants",
+                "They cannot be redeclared"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 3,
+            "question": "Which of the following statements about 'let' is TRUE?",
+            "options": [
+                "'let' is block-scoped",
+                "'let' is function-scoped",
+                "'let' variables can be redeclared in the same scope",
+                "'let' variables are hoisted and initialized with undefined"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 4,
+            "question": "What is printed?\n\nconsole.log(0.1 + 0.2 === 0.3);",
+            "options": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 5,
+            "question": "Which statement about JavaScript functions is TRUE?",
+            "options": [
+                "Functions are first-class objects",
+                "Functions cannot be passed as arguments",
+                "Functions cannot return other functions",
+                "Functions cannot be assigned to variables"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 6,
+            "question": "What does '===' operator do in JavaScript?",
+            "options": [
+                "Strict equality (value and type)",
+                "Equality of values only",
+                "Assigns a value",
+                "Strict inequality"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 7,
+            "question": "What is printed?\n\nconsole.log([1,2,3] + [4,5]);",
+            "options": [
+                "1,2,34,5",
+                "[1,2,3,4,5]",
+                "Error",
+                "NaN"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 8,
+            "question": "Which of the following is TRUE about JavaScript 'this'?",
+            "options": [
+                "'this' refers to the object calling the function",
+                "'this' always refers to the global object",
+                "'this' is a reserved word for constants",
+                "'this' cannot be used in arrow functions"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 9,
+            "question": "Which method converts a JSON string to an object?",
+            "options": [
+                "JSON.parse()",
+                "JSON.stringify()",
+                "JSON.toObject()",
+                "JSON.convert()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 10,
+            "question": "Which of the following creates a new array with only unique values?",
+            "options": [
+                "[...new Set(array)]",
+                "array.unique()",
+                "array.deduplicate()",
+                "array.filterUnique()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 11,
+            "question": "Which statement about JavaScript arrow functions is TRUE?",
+            "options": [
+                "Arrow functions do not have their own 'this'",
+                "Arrow functions are always hoisted",
+                "Arrow functions cannot return values",
+                "Arrow functions can be used as constructors"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 12,
+            "question": "What is the output?\n\nconsole.log(1 + '2' + 3);",
+            "options": [
+                "'123'",
+                "6",
+                "'33'",
+                "Error"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 13,
+            "question": "Which of these is TRUE about JavaScript closures?",
+            "options": [
+                "A closure gives access to an outer function's scope from an inner function",
+                "Closures are automatically garbage collected immediately",
+                "Closures can only be used with classes",
+                "Closures are deprecated in ES6"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 14,
+            "question": "Which of the following statements about 'var', 'let', and 'const' is TRUE?",
+            "options": [
+                "'var' is function-scoped, 'let' and 'const' are block-scoped",
+                "'let' is function-scoped, 'var' is block-scoped",
+                "'const' can be reassigned",
+                "All are global-scoped"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 15,
+            "question": "What is printed?\n\nconsole.log(typeof NaN);",
+            "options": [
+                "'number'",
+                "'NaN'",
+                "'undefined'",
+                "'object'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 16,
+            "question": "Which is TRUE about JavaScript arrays?",
+            "options": [
+                "Arrays can contain mixed types",
+                "Arrays cannot contain objects",
+                "Array length cannot be changed",
+                "Arrays do not have map or filter methods"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 17,
+            "question": "What is printed?\n\nconsole.log([] == false);",
+            "options": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 18,
+            "question": "What is the output?\n\nconsole.log('5' - 2);",
+            "options": [
+                "3",
+                "'3'",
+                "NaN",
+                "Error"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 19,
+            "question": "Which of the following is TRUE about JavaScript objects?",
+            "options": [
+                "Object properties can be added and deleted at runtime",
+                "Object keys must be numbers",
+                "Objects cannot contain functions",
+                "Objects are immutable by default"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 20,
+            "question": "Which of these statements about promises is TRUE?",
+            "options": [
+                "Promises represent asynchronous operations that may complete in the future",
+                "Promises block the main thread",
+                "Promises are synchronous by default",
+                "Promises are only used for HTTP requests"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 21,
+            "question": "Which of these methods adds an element at the end of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 22,
+            "question": "Which of the following is TRUE about 'const' variables?",
+            "options": [
+                "'const' variables cannot be reassigned",
+                "'const' variables are block-scoped but can be reassigned",
+                "'const' variables are global-scoped",
+                "'const' is deprecated"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 23,
+            "question": "What is printed?\n\nconsole.log([] === false);",
+            "options": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 24,
+            "question": "Which of these is TRUE about JavaScript 'async/await'?",
+            "options": [
+                "'await' pauses the execution of the async function until the promise resolves",
+                "'await' blocks the entire program",
+                "'async' functions are synchronous",
+                "You can use 'await' outside 'async' functions in all browsers"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 25,
+            "question": "What is printed?\n\nconsole.log(typeof undefined);",
+            "options": [
+                "'undefined'",
+                "'null'",
+                "'object'",
+                "'void'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 26,
+            "question": "Which is TRUE about JavaScript 'hoisting'?",
+            "options": [
+                "Function declarations and 'var' variables are hoisted",
+                "Arrow functions are hoisted with initialization",
+                "let and const are hoisted and initialized with undefined",
+                "Hoisting only applies to constants"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 27,
+            "question": "Which of these is TRUE about JavaScript 'NaN'?",
+            "options": [
+                "NaN is not equal to itself",
+                "NaN is equal to 0",
+                "NaN is falsy but equal to false",
+                "NaN is a type of string"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 28,
+            "question": "What is printed?\n\nconsole.log([1,2,3].slice(1,2));",
+            "options": [
+                "[2]",
+                "[1,2]",
+                "[2,3]",
+                "[1,2,3]"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 29,
+            "question": "Which of the following is TRUE about JavaScript classes?",
+            "options": [
+                "Classes are syntactic sugar over prototypes",
+                "Classes are completely independent of prototypes",
+                "Classes cannot have constructors",
+                "Classes cannot have static methods"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 30,
+            "question": "Which is TRUE about JavaScript event loop?",
+            "options": [
+                "It handles asynchronous callbacks",
+                "It executes synchronous code asynchronously",
+                "It blocks the main thread",
+                "It only exists in Node.js"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 31,
+            "question": "What is printed?\n\nconsole.log([] + []);",
+            "options": [
+                "''",
+                "'[]'",
+                "0",
+                "undefined"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 32,
+            "question": "Which of these is TRUE about JavaScript 'typeof NaN'?",
+            "options": [
+                "'number'",
+                "'NaN'",
+                "'undefined'",
+                "'object'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 33,
+            "question": "Which is TRUE about 'for...in' loops?",
+            "options": [
+                "Iterates over object keys",
+                "Iterates over array values",
+                "Iterates only over numbers",
+                "Iterates asynchronously"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 34,
+            "question": "Which of the following statements about JavaScript modules is TRUE?",
+            "options": [
+                "ES6 modules can export multiple functions or objects",
+                "Modules are not supported in modern browsers",
+                "Modules cannot import other modules",
+                "Modules must be compiled manually"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 35,
+            "question": "What is printed?\n\nconsole.log(null == undefined);",
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "undefined"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 36,
+            "question": "Which of the following is TRUE about JavaScript 'Symbol'?",
+            "options": [
+                "Symbol is a primitive data type",
+                "Symbol can be converted to string automatically",
+                "Symbol is mutable",
+                "Symbol can be used as a number"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 37,
+            "question": "What is printed?\n\nconsole.log(typeof []);",
+            "options": [
+                "'object'",
+                "'array'",
+                "'list'",
+                "'undefined'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 38,
+            "question": "Which of these is TRUE about JavaScript WeakMap?",
+            "options": [
+                "Keys must be objects and are weakly referenced",
+                "Keys can be primitives",
+                "Values are weakly referenced",
+                "WeakMap is immutable"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 39,
+            "question": "Which is TRUE about 'document.querySelector'?",
+            "options": [
+                "Returns the first element that matches a CSS selector",
+                "Returns all elements matching a selector",
+                "Cannot select by class",
+                "Cannot select by ID"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 40,
+            "question": "Which of the following statements about JavaScript 'null' is TRUE?",
+            "options": [
+                "Represents intentional absence of any object value",
+                "Represents undefined value",
+                "Represents zero",
+                "Represents NaN"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 41,
+            "question": "Which of the following is TRUE about JavaScript 'map' method?",
+            "options": [
+                "Returns a new array with the results of calling a function on every element",
+                "Modifies the original array",
+                "Removes elements from the array",
+                "Executes only on objects"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 42,
+            "question": "What is printed?\n\nconsole.log(0 == '0');",
+            "options": [
+                "true",
+                "false",
+                "Error",
+                "undefined"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 43,
+            "question": "Which statement about JavaScript 'splice' is TRUE?",
+            "options": [
+                "It can remove and insert elements in an array",
+                "It returns a number",
+                "It does not modify the original array",
+                "It works only on strings"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 44,
+            "question": "Which is TRUE about 'Object.freeze'?",
+            "options": [
+                "Prevents modification of an object’s properties",
+                "Deletes the object",
+                "Creates a new copy of the object",
+                "Only works on arrays"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 45,
+            "question": "Which of these is TRUE about JavaScript 'setTimeout'?",
+            "options": [
+                "Schedules a function to run after a delay",
+                "Blocks execution for the delay",
+                "Runs function immediately",
+                "Is synchronous"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 46,
+            "question": "What is printed?\n\nconsole.log(typeof function(){});",
+            "options": [
+                "'function'",
+                "'object'",
+                "'undefined'",
+                "'method'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 47,
+            "question": "Which of these is TRUE about JavaScript 'Promise.all'?",
+            "options": [
+                "Resolves when all promises resolve",
+                "Resolves when the first promise resolves",
+                "Rejects only if all promises fail",
+                "Executes promises synchronously"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 48,
+            "question": "Which of the following is TRUE about 'JSON.stringify'?",
+            "options": [
+                "Converts a JavaScript object to a JSON string",
+                "Converts a JSON string to an object",
+                "Modifies the original object",
+                "Parses JSON from a file"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 49,
+            "question": "Which statement is TRUE about JavaScript 'RegExp'?",
+            "options": [
+                "Used for pattern matching in strings",
+                "Cannot be used to replace text",
+                "Only works on arrays",
+                "Is synchronous only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 50,
+            "question": "What is printed?\n\nconsole.log([] == ![]);",
+            "options": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

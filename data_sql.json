@@ -1,0 +1,555 @@
+{
+    "topic": "SQL",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which SQL statement is used to extract data from a database?",
+            "options": [
+                "SELECT",
+                "GET",
+                "EXTRACT",
+                "OPEN"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 2,
+            "question": "Which clause is used to filter records in SQL?",
+            "options": [
+                "WHERE",
+                "HAVING",
+                "ORDER BY",
+                "GROUP BY"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 3,
+            "question": "Which SQL keyword is used to sort the result-set?",
+            "options": [
+                "ORDER BY",
+                "SORT BY",
+                "GROUP BY",
+                "FILTER BY"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 4,
+            "question": "Which function returns the total number of records?",
+            "options": [
+                "COUNT()",
+                "SUM()",
+                "TOTAL()",
+                "NUMBER()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 5,
+            "question": "Which statement is used to delete all records in a table but keep the table structure?",
+            "options": [
+                "TRUNCATE",
+                "DROP",
+                "DELETE",
+                "REMOVE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 6,
+            "question": "Which SQL clause is used with aggregate functions to group rows?",
+            "options": [
+                "GROUP BY",
+                "ORDER BY",
+                "HAVING",
+                "FILTER"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 7,
+            "question": "Which keyword is used to prevent duplicate rows in a result set?",
+            "options": [
+                "DISTINCT",
+                "UNIQUE",
+                "SINGLE",
+                "EXACT"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 8,
+            "question": "Which SQL statement is used to update existing records?",
+            "options": [
+                "UPDATE",
+                "MODIFY",
+                "SET",
+                "CHANGE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 9,
+            "question": "Which of these is correct to retrieve the top 5 highest salaries in a table 'Employee'?",
+            "options": [
+                "SELECT * FROM Employee ORDER BY Salary DESC LIMIT 5;",
+                "SELECT TOP 5 * FROM Employee;",
+                "SELECT * FROM Employee ORDER BY Salary ASC LIMIT 5;",
+                "SELECT * FROM Employee MAX(Salary) LIMIT 5;"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 10,
+            "question": "Which clause is used to filter groups after applying aggregate functions?",
+            "options": [
+                "HAVING",
+                "WHERE",
+                "GROUP BY",
+                "ORDER BY"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 11,
+            "question": "Which join returns all records from both tables and matches where possible?",
+            "options": [
+                "FULL OUTER JOIN",
+                "INNER JOIN",
+                "LEFT JOIN",
+                "RIGHT JOIN"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 12,
+            "question": "Which SQL function is used to find the largest value in a column?",
+            "options": [
+                "MAX()",
+                "LARGEST()",
+                "HIGH()",
+                "TOP()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 13,
+            "question": "Which command removes a table and its structure from the database?",
+            "options": [
+                "DROP TABLE",
+                "DELETE TABLE",
+                "TRUNCATE TABLE",
+                "REMOVE TABLE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 14,
+            "question": "What does the SQL keyword 'NULL' represent?",
+            "options": [
+                "Missing or undefined value",
+                "Zero",
+                "Empty string",
+                "False"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 15,
+            "question": "Which of the following is correct about PRIMARY KEY?",
+            "options": [
+                "Uniquely identifies each record and cannot contain NULL",
+                "Can contain duplicate values",
+                "Can contain NULL values",
+                "Must be numeric"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 16,
+            "question": "Which of these is correct about FOREIGN KEY?",
+            "options": [
+                "References a primary key in another table",
+                "Can have duplicate primary keys",
+                "Is only used for indexing",
+                "Cannot reference a primary key"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 17,
+            "question": "Which statement adds a new column to an existing table?",
+            "options": [
+                "ALTER TABLE table_name ADD column_name datatype;",
+                "MODIFY TABLE table_name ADD column_name;",
+                "UPDATE TABLE table_name ADD column_name;",
+                "INSERT INTO table_name ADD column_name;"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 18,
+            "question": "Which of these statements is TRUE about indexes?",
+            "options": [
+                "They improve query performance",
+                "They store duplicate records",
+                "They replace primary keys",
+                "They cannot be created on multiple columns"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 19,
+            "question": "Which of these is correct about UNIQUE constraint?",
+            "options": [
+                "Prevents duplicate values in a column",
+                "Allows duplicate values",
+                "Only works with numeric columns",
+                "Only works with foreign keys"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 20,
+            "question": "Which of these statements about SQL views is TRUE?",
+            "options": [
+                "Views are virtual tables based on SQL queries",
+                "Views store data physically",
+                "Views cannot have joins",
+                "Views are the same as tables"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 21,
+            "question": "Which of these commands is used to remove all records from a table but keep the structure?",
+            "options": [
+                "TRUNCATE",
+                "DELETE",
+                "DROP",
+                "REMOVE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 22,
+            "question": "Which aggregate function calculates the average of a column?",
+            "options": [
+                "AVG()",
+                "SUM()",
+                "MEAN()",
+                "TOTAL()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 23,
+            "question": "Which statement is TRUE about INNER JOIN?",
+            "options": [
+                "Returns only matching records from both tables",
+                "Returns all records from the left table",
+                "Returns all records from the right table",
+                "Returns all records from both tables"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 24,
+            "question": "Which clause is used to group rows with the same values?",
+            "options": [
+                "GROUP BY",
+                "ORDER BY",
+                "HAVING",
+                "DISTINCT"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 25,
+            "question": "Which of the following is TRUE about SQL subqueries?",
+            "options": [
+                "Subqueries can be nested inside another query",
+                "Subqueries cannot return multiple rows",
+                "Subqueries replace the main query",
+                "Subqueries can only select one column"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 26,
+            "question": "Which of these keywords is used to eliminate duplicate rows in a query result?",
+            "options": [
+                "DISTINCT",
+                "UNIQUE",
+                "SINGLE",
+                "NONE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 27,
+            "question": "Which of the following is correct about JOINs?",
+            "options": [
+                "JOIN combines rows from two or more tables based on a related column",
+                "JOIN deletes rows from tables",
+                "JOIN is used to update tables",
+                "JOIN is used to create views only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 28,
+            "question": "Which of these statements is TRUE about 'HAVING'?",
+            "options": [
+                "HAVING filters records after aggregation",
+                "HAVING filters individual rows",
+                "HAVING is used instead of WHERE always",
+                "HAVING cannot use aggregate functions"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 29,
+            "question": "Which of the following commands is used to remove a table from a database?",
+            "options": [
+                "DROP TABLE",
+                "DELETE TABLE",
+                "REMOVE TABLE",
+                "TRUNCATE TABLE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 30,
+            "question": "Which of the following is TRUE about SQL transactions?",
+            "options": [
+                "A transaction is a sequence of one or more SQL statements executed as a single unit",
+                "Transactions cannot be rolled back",
+                "Transactions are executed partially",
+                "Transactions are not supported in modern SQL"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 31,
+            "question": "Which SQL statement is used to add a new record to a table?",
+            "options": [
+                "INSERT INTO",
+                "ADD",
+                "CREATE RECORD",
+                "UPDATE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 32,
+            "question": "Which of these is TRUE about SQL constraints?",
+            "options": [
+                "Constraints enforce rules on table columns",
+                "Constraints store data permanently",
+                "Constraints are optional in queries",
+                "Constraints cannot be applied on primary keys"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 33,
+            "question": "Which of these statements about SQL UNION is TRUE?",
+            "options": [
+                "Combines results of two queries and removes duplicates",
+                "Combines queries but keeps all duplicates",
+                "Only works with numeric columns",
+                "Replaces one table with another"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 34,
+            "question": "Which of these is TRUE about SQL indexes?",
+            "options": [
+                "Indexes improve query performance but use extra storage",
+                "Indexes slow down data retrieval",
+                "Indexes replace primary keys",
+                "Indexes cannot be created on multiple columns"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 35,
+            "question": "Which of the following is TRUE about SQL 'BETWEEN'?",
+            "options": [
+                "Filters values within a range inclusive",
+                "Filters values outside a range",
+                "Filters NULL values only",
+                "Filters string values only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 36,
+            "question": "Which of the following is TRUE about SQL 'LIKE'?",
+            "options": [
+                "Used for pattern matching with wildcards",
+                "Used for exact numeric comparisons",
+                "Cannot be combined with WHERE",
+                "Matches NULL values only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 37,
+            "question": "Which of the following is TRUE about SQL 'IN' operator?",
+            "options": [
+                "Checks if a value matches any value in a list or subquery",
+                "Checks for NULL only",
+                "Checks for duplicates",
+                "Replaces the WHERE clause"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 38,
+            "question": "Which of the following is TRUE about SQL 'EXISTS'?",
+            "options": [
+                "Tests for existence of rows returned by a subquery",
+                "Checks if a table exists",
+                "Deletes a table",
+                "Checks for NULL only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 39,
+            "question": "Which of the following is TRUE about SQL 'INNER JOIN'?",
+            "options": [
+                "Returns only matching rows from both tables",
+                "Returns all rows from both tables",
+                "Returns only non-matching rows",
+                "Deletes matching rows"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 40,
+            "question": "Which SQL keyword limits the number of rows returned?",
+            "options": [
+                "LIMIT",
+                "TOP",
+                "FETCH",
+                "ALL"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 41,
+            "question": "Which is TRUE about SQL 'ALTER TABLE'?",
+            "options": [
+                "Can add, drop, or modify columns",
+                "Deletes the table",
+                "Cannot rename columns",
+                "Cannot modify data type"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 42,
+            "question": "Which SQL command is used to save changes made by a transaction?",
+            "options": [
+                "COMMIT",
+                "ROLLBACK",
+                "SAVE",
+                "APPLY"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 43,
+            "question": "Which SQL command reverts a transaction?",
+            "options": [
+                "ROLLBACK",
+                "UNDO",
+                "CANCEL",
+                "DELETE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 44,
+            "question": "Which of the following statements is TRUE about SQL 'UNION ALL'?",
+            "options": [
+                "Combines results of two queries and includes duplicates",
+                "Removes duplicates",
+                "Replaces one table with another",
+                "Deletes duplicates"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 45,
+            "question": "Which of the following is TRUE about SQL 'CASE'?",
+            "options": [
+                "Used for conditional expressions in queries",
+                "Replaces WHERE clause",
+                "Deletes rows based on conditions",
+                "Can only be used in stored procedures"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 46,
+            "question": "Which of the following is TRUE about SQL 'COALESCE'?",
+            "options": [
+                "Returns the first non-NULL value in a list",
+                "Returns NULL if any value is NULL",
+                "Returns zero if any value is NULL",
+                "Replaces values permanently in table"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 47,
+            "question": "Which SQL clause is used to combine multiple conditions?",
+            "options": [
+                "AND / OR",
+                "BETWEEN",
+                "IN",
+                "LIKE"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 48,
+            "question": "Which SQL keyword retrieves unique values from a column?",
+            "options": [
+                "DISTINCT",
+                "UNIQUE",
+                "ALL",
+                "ONLY"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 49,
+            "question": "Which of the following is TRUE about SQL 'PRIMARY KEY'?",
+            "options": [
+                "Must contain unique and non-NULL values",
+                "Can contain duplicate values",
+                "Can be NULL",
+                "Can be used for foreign keys only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 50,
+            "question": "Which SQL clause is used to filter rows after GROUP BY?",
+            "options": [
+                "HAVING",
+                "WHERE",
+                "ORDER BY",
+                "DISTINCT"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

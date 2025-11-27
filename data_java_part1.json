@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "question": "What is the output of the following code?\npublic class Test { public static void main(String[] args) { int x = 5; System.out.println(x++ + ++x); }}",
+        "options": [
+            "12",
+            "11",
+            "10",
+            "Compilation error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 2,
+        "question": "What is printed?\npublic class Test { public static void main(String[] args) { int a = 10; int b = a++ + a; System.out.println(b); }}",
+        "options": [
+            "20",
+            "21",
+            "19",
+            "11"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 3,
+        "question": "What is the result?\npublic class Test { public static void main(String[] args) { boolean b = false; if(b = true) System.out.println(\"Yes\"); }}",
+        "options": [
+            "Yes",
+            "No output",
+            "Compilation error",
+            "Runtime error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 4,
+        "question": "What is printed?\npublic class Test { public static void main(String[] args) { String s = \"Java\"; String t = s; s += \"8\"; System.out.println(t); }}",
+        "options": [
+            "Java",
+            "Java8",
+            "8",
+            "null"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 5,
+        "question": "What does this print?\npublic class Test { public static void main(String[] args) { int x = 0; for(int i=0;i<5;i++); System.out.println(i); }}",
+        "options": [
+            "5",
+            "0",
+            "Compilation error",
+            "Runtime exception"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 6,
+        "question": "What is the output?\npublic class Test { static int i; public static void main(String[] args) { System.out.println(i); }}",
+        "options": [
+            "0",
+            "null",
+            "Garbage",
+            "Compilation error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 7,
+        "question": "What is printed?\npublic class Test { public static void main(String[] a) { int x = 10; System.out.println(--x - x--); }}",
+        "options": [
+            "0",
+            "1",
+            "-1",
+            "Compilation error"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 8,
+        "question": "What happens?\npublic class Test { public static void main(String[] args) { int x = 5; if(x==5) System.out.println(\"A\"); else System.out.println(\"B\"); }}",
+        "options": [
+            "A",
+            "B",
+            "No output",
+            "Compilation error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 9,
+        "question": "What is the output?\npublic class Test { public static void main(String[] args) { String s = \"abc\"; System.out.println(s.charAt(3)); }}",
+        "options": [
+            "c",
+            "IndexOutOfBoundsException",
+            "Compilation error",
+            "null"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 10,
+        "question": "What is printed?\npublic class Test { public static void main(String[] args) { int x = 5; while(x>5) x--; System.out.println(x); }}",
+        "options": [
+            "5",
+            "4",
+            "0",
+            "Infinite loop"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 21,
+        "question": "public class Test { public static void main(String[] args) { int x=10; int y=--x + x-- + ++x; System.out.println(y); }}",
+        "options": [
+            "28",
+            "29",
+            "30",
+            "Compilation error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 22,
+        "question": "public class Test { public static void main(String[] args) { String s1=\"Java\"; String s2=new String(\"Java\"); System.out.println(s1==s2); }}",
+        "options": [
+            "true",
+            "false",
+            "Compilation error",
+            "Runtime error"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 23,
+        "question": "public class Test { static int i; public static void main(String[] args) { System.out.println(i); }}",
+        "options": [
+            "0",
+            "null",
+            "Compilation error",
+            "Garbage"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 24,
+        "question": "public class Test { public static void main(String[] args) { int x=5; if(x=10){ System.out.println(\"Hi\"); }}}",
+        "options": [
+            "Hi",
+            "No output",
+            "Compilation error",
+            "Runtime error"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 25,
+        "question": "public class Test { public static void main(String[] args) { boolean a=true,b=false; System.out.println(a & b); }}",
+        "options": [
+            "true",
+            "false",
+            "Compilation error",
+            "Runtime error"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 26,
+        "question": "interface A{} class B implements A {} class C extends B {} public class Test{ public static void main(String[] args){ A a=new C(); B b=(B)a; System.out.println(\"OK\"); }}",
+        "options": [
+            "OK",
+            "Compilation error",
+            "ClassCastException",
+            "Runtime error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 27,
+        "question": "public class Test { public static void main(String[] args) { StringBuilder sb=new StringBuilder(\"A\"); sb.append(\"B\"); sb.insert(1,\"C\"); System.out.println(sb); }}",
+        "options": [
+            "ABC",
+            "ACB",
+            "CAB",
+            "Compilation error"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 28,
+        "question": "public class Test { public static void main(String[] args) { char c='A'; c++; System.out.println(c); }}",
+        "options": [
+            "A",
+            "B",
+            "66",
+            "Compilation error"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 29,
+        "question": "public class Test { public static void main(String[] args) { int x=1; while(x<3) x++; System.out.println(x); }}",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "Infinite loop"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 30,
+        "question": "public class Test { public static void main(String[] args) { int[][] arr={{1,2},{3,4,5}}; System.out.println(arr[1].length); }}",
+        "options": [
+            "2",
+            "3",
+            "5",
+            "Compilation error"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 31,
+        "question": "public class Test { public static void main(String[] args){ final int x=5; switch(x){case 5: System.out.println(\"Hi\"); }} }",
+        "options": [
+            "Hi",
+            "Compilation error",
+            "No output",
+            "Runtime exception"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 32,
+        "question": "public class Test { public static void main(String[] args){ int x=0; do{x++;}while(x<0); System.out.println(x);} }",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "Infinite loop"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 33,
+        "question": "public class Test { static void m(int...x){System.out.println(x.length);} public static void main(String[] args){ m(1,2,3); }}",
+        "options": [
+            "0",
+            "1",
+            "3",
+            "Compilation error"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 34,
+        "question": "public class Test { public static void main(String[] args){ String s=\"abc\"; s.toUpperCase(); System.out.println(s);} }",
+        "options": [
+            "ABC",
+            "abc",
+            "Compilation error",
+            "Runtime exception"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 35,
+        "question": "public class Test { public static void main(String[] args){ int x=10; if(x>5) if(x>8) System.out.println(\"A\"); else System.out.println(\"B\"); }}",
+        "options": [
+            "A",
+            "B",
+            "No output",
+            "Compilation error"
+        ],
+        "correct_index": 1
+    },
+    {
+        "id": 36,
+        "question": "public class Test { public static void main(String[] args){ byte b=10; b+=20; System.out.println(b);} }",
+        "options": [
+            "10",
+            "20",
+            "30",
+            "Compilation error"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 37,
+        "question": "public class Test { public static void main(String[] args){ int x=7; System.out.println(x>>1);} }",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_index": 2
+    },
+    {
+        "id": 38,
+        "question": "public class Test { public static void main(String[] args){ int x=5; x=x++ + ++x; System.out.println(x);} }",
+        "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 39,
+        "question": "class A{} class B extends A{} class C extends B{} public class Test{ public static void main(String[] args){ A a=new B(); C c=(C)a; }}",
+        "options": [
+            "Works fine",
+            "Compilation error",
+            "ClassCastException",
+            "RuntimeException"
+        ],
+        "correct_index": 3
+    },
+    {
+        "id": 40,
+        "question": "public class Test { public static void main(String[] args){ System.out.println(\"Java\" instanceof String); }}",
+        "options": [
+            "true",
+            "false",
+            "Compilation error",
+            "RuntimeException"
+        ],
+        "correct_index": 3
+    }
+]

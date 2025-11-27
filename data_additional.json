@@ -1,0 +1,1578 @@
+{
+    "Python": [
+        {
+            "question": "What is Python?",
+            "options": [
+                "High-level, interpreted, dynamically typed language",
+                "Low-level compiled language",
+                "Assembly language",
+                "Markup language"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used to define a function?",
+            "options": [
+                "func",
+                "define",
+                "def",
+                "function"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which of these is mutable?",
+            "options": [
+                "list",
+                "tuple",
+                "str",
+                "int"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "How do you create a virtual environment?",
+            "options": [
+                "python -m venv env",
+                "pip install env",
+                "virtualenv create",
+                "copy system Python folder"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator is exponentiation?",
+            "options": [
+                "^",
+                "**",
+                "%",
+                "exp"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question": "How do you handle exceptions?",
+            "options": [
+                "try...catch",
+                "try...except",
+                "handle...catch",
+                "try...finally only"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question": "Which method adds an element to the end of a list?",
+            "options": [
+                "append()",
+                "add()",
+                "insert()",
+                "extend()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which data type is unordered and mutable?",
+            "options": [
+                "set",
+                "dict",
+                "tuple",
+                "list"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns keys of a dictionary?",
+            "options": [
+                "keys()",
+                "values()",
+                "items()",
+                "get()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "How do you open a file for reading?",
+            "options": [
+                "open('file','r')",
+                "open('file','w')",
+                "readfile('file')",
+                "file.open('file','r')"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method removes the last item of a list?",
+            "options": [
+                "pop()",
+                "remove()",
+                "del()",
+                "clear()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "How do you iterate over a dictionary?",
+            "options": [
+                "for key in dict:",
+                "for key in dict.keys():",
+                "for key, value in dict.items():",
+                "All of the above"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which function converts string to integer?",
+            "options": [
+                "int()",
+                "str()",
+                "float()",
+                "convert()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which is used for anonymous functions?",
+            "options": [
+                "lambda",
+                "def",
+                "func",
+                "anonymous"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method sorts a list in-place?",
+            "options": [
+                "sort()",
+                "sorted()",
+                "order()",
+                "arrange()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator checks identity?",
+            "options": [
+                "is",
+                "==",
+                "equals",
+                "==="
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used to create a generator?",
+            "options": [
+                "yield",
+                "return",
+                "generate",
+                "func"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used for inheritance?",
+            "options": [
+                "class Child(Parent):",
+                "inherit Parent",
+                "extends Parent",
+                "implements Parent"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which module handles regular expressions?",
+            "options": [
+                "re",
+                "regex",
+                "pyregex",
+                "regexp"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method converts object to string?",
+            "options": [
+                "str()",
+                "string()",
+                "toString()",
+                "format()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which built-in function gives length?",
+            "options": [
+                "len()",
+                "length()",
+                "size()",
+                "count()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which statement imports a module?",
+            "options": [
+                "import math",
+                "include math",
+                "require math",
+                "use math"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method removes whitespace from start and end?",
+            "options": [
+                "strip()",
+                "trim()",
+                "clean()",
+                "rstrip()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines a class?",
+            "options": [
+                "class",
+                "object",
+                "def",
+                "struct"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is a Python boolean value?",
+            "options": [
+                "True",
+                "true",
+                "1",
+                "Yes"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method reads all lines from a file?",
+            "options": [
+                "readlines()",
+                "read()",
+                "readline()",
+                "lines()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which module is used for math operations?",
+            "options": [
+                "math",
+                "cmath",
+                "numbers",
+                "numpy"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which function returns an absolute value?",
+            "options": [
+                "abs()",
+                "absolute()",
+                "value()",
+                "mod()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method checks if string starts with substring?",
+            "options": [
+                "startswith()",
+                "startswithWith()",
+                "start()",
+                "begins()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which is the correct comment syntax?",
+            "options": [
+                "# comment",
+                "// comment",
+                "/* comment */",
+                "<!-- comment -->"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs floor division?",
+            "options": [
+                "//",
+                "/",
+                "%",
+                "**"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns index of item in list?",
+            "options": [
+                "index()",
+                "find()",
+                "locate()",
+                "position()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword stops a loop?",
+            "options": [
+                "break",
+                "stop",
+                "exit",
+                "end"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword skips to next iteration?",
+            "options": [
+                "continue",
+                "skip",
+                "next",
+                "pass"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines a constant in Python?",
+            "options": [
+                "No keyword, use uppercase naming",
+                "const",
+                "let",
+                "define"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method converts list to string?",
+            "options": [
+                "join()",
+                "concat()",
+                "str()",
+                "listToStr()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which built-in function evaluates an expression?",
+            "options": [
+                "eval()",
+                "exec()",
+                "execute()",
+                "run()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator is used for membership test?",
+            "options": [
+                "in",
+                "has",
+                "contains",
+                "exists"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which built-in function returns type?",
+            "options": [
+                "type()",
+                "class()",
+                "typeof()",
+                "instance()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines an empty block?",
+            "options": [
+                "pass",
+                "skip",
+                "empty",
+                "null"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method reverses a list in-place?",
+            "options": [
+                "reverse()",
+                "revert()",
+                "flip()",
+                "invert()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method removes item by index?",
+            "options": [
+                "pop(index)",
+                "remove(index)",
+                "delete(index)",
+                "discard(index)"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method copies a list?",
+            "options": [
+                "copy()",
+                "clone()",
+                "duplicate()",
+                "replicate()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which function returns max value in list?",
+            "options": [
+                "max()",
+                "maximum()",
+                "highest()",
+                "top()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which function returns min value in list?",
+            "options": [
+                "min()",
+                "minimum()",
+                "lowest()",
+                "bottom()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines a generator?",
+            "options": [
+                "yield",
+                "return",
+                "generate",
+                "func"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method checks if list is empty?",
+            "options": [
+                "len(list)==0",
+                "list.empty()",
+                "isEmpty(list)",
+                "list.length==0"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which module is used to create date objects?",
+            "options": [
+                "datetime",
+                "time",
+                "dateutil",
+                "calendar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which function rounds a number?",
+            "options": [
+                "round()",
+                "ceil()",
+                "floor()",
+                "truncate()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which statement stops function execution?",
+            "options": [
+                "return",
+                "break",
+                "exit",
+                "stop"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which function converts number to string?",
+            "options": [
+                "str()",
+                "string()",
+                "toString()",
+                "convert()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method checks if string is numeric?",
+            "options": [
+                "isnumeric()",
+                "isnumber()",
+                "isdigit()",
+                "isnum()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs bitwise AND?",
+            "options": [
+                "&",
+                "|",
+                "^",
+                "~"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs bitwise OR?",
+            "options": [
+                "|",
+                "&",
+                "^",
+                "~"
+            ],
+            "correct_index": 1
+        }
+    ],
+    "Java": [
+        {
+            "question": "Which keyword is used to inherit a class?",
+            "options": [
+                "extends",
+                "implements",
+                "inherits",
+                "super"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is a primitive data type?",
+            "options": [
+                "int",
+                "String",
+                "ArrayList",
+                "Scanner"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method is the entry point of a Java program?",
+            "options": [
+                "public static void main(String[] args)",
+                "void main()",
+                "start()",
+                "run()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which exception is checked in Java?",
+            "options": [
+                "IOException",
+                "ArithmeticException",
+                "NullPointerException",
+                "ArrayIndexOutOfBoundsException"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is used to create a thread?",
+            "options": [
+                "Extending Thread class",
+                "Implementing Runnable interface",
+                "Both A and B",
+                "None"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which keyword prevents inheritance?",
+            "options": [
+                "final",
+                "static",
+                "private",
+                "protected"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method is used to compare two strings?",
+            "options": [
+                "equals()",
+                "==",
+                "compareToString()",
+                "match()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of the following is true about interfaces?",
+            "options": [
+                "Interfaces can have default methods",
+                "Interfaces can have constructors",
+                "Interfaces cannot be implemented",
+                "Interfaces can store data like a class"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator is used for logical AND?",
+            "options": [
+                "&&",
+                "&",
+                "and",
+                "||"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which collection allows duplicates and maintains insertion order?",
+            "options": [
+                "ArrayList",
+                "HashSet",
+                "HashMap",
+                "TreeSet"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used to declare a constant?",
+            "options": [
+                "final",
+                "static",
+                "const",
+                "constant"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns the length of an array?",
+            "options": [
+                "array.length",
+                "array.size()",
+                "length(array)",
+                "size(array)"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs bitwise OR?",
+            "options": [
+                "|",
+                "&",
+                "^",
+                "~"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs bitwise AND?",
+            "options": [
+                "&",
+                "|",
+                "^",
+                "~"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method is used to start a thread?",
+            "options": [
+                "start()",
+                "run()",
+                "init()",
+                "execute()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is mutable?",
+            "options": [
+                "StringBuilder",
+                "String",
+                "Integer",
+                "Double"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is immutable?",
+            "options": [
+                "String",
+                "StringBuilder",
+                "ArrayList",
+                "HashMap"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which access modifier allows access in the same package only?",
+            "options": [
+                "default/package-private",
+                "private",
+                "protected",
+                "public"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used to call parent class constructor?",
+            "options": [
+                "super",
+                "this",
+                "parent",
+                "base"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is used to stop a loop?",
+            "options": [
+                "break",
+                "stop",
+                "exit",
+                "continue"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword skips current iteration?",
+            "options": [
+                "continue",
+                "break",
+                "skip",
+                "pass"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these converts string to integer?",
+            "options": [
+                "Integer.parseInt()",
+                "Integer.toInt()",
+                "parseInt()",
+                "toInt()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method checks if a string is empty?",
+            "options": [
+                "isEmpty()",
+                "empty()",
+                "length()==0",
+                "equals('')"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which class is used to read input from console?",
+            "options": [
+                "Scanner",
+                "InputReader",
+                "BufferedReader",
+                "ConsoleReader"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these loops executes at least once?",
+            "options": [
+                "do-while",
+                "while",
+                "for",
+                "foreach"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which exception is thrown by divide by zero?",
+            "options": [
+                "ArithmeticException",
+                "IOException",
+                "NullPointerException",
+                "NumberFormatException"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method joins two strings?",
+            "options": [
+                "concat()",
+                "+ operator",
+                "StringBuilder.append()",
+                "All of the above"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which statement defines an array?",
+            "options": [
+                "int[] arr = new int[5];",
+                "int arr[] = 5;",
+                "array arr = new int[5];",
+                "int arr = array(5);"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns class name of an object?",
+            "options": [
+                "getClass().getName()",
+                "className()",
+                "getName()",
+                "typeName()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used for runtime polymorphism?",
+            "options": [
+                "extends",
+                "implements",
+                "overrides",
+                "super"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which annotation indicates method override?",
+            "options": [
+                "@Override",
+                "@Overload",
+                "@Inherited",
+                "@Annotation"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which class is parent of all exceptions?",
+            "options": [
+                "Throwable",
+                "Exception",
+                "Error",
+                "RuntimeException"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used to define an interface?",
+            "options": [
+                "interface",
+                "class",
+                "implements",
+                "extends"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which collection stores key-value pairs?",
+            "options": [
+                "HashMap",
+                "HashSet",
+                "ArrayList",
+                "LinkedList"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which class is used for thread synchronization?",
+            "options": [
+                "synchronized block",
+                "Lock class",
+                "Thread class",
+                "Executor"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns hash code of an object?",
+            "options": [
+                "hashCode()",
+                "getHash()",
+                "code()",
+                "objectHash()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs modulo?",
+            "options": [
+                "%",
+                "/",
+                "*",
+                "**"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which interface is implemented by lambda expressions?",
+            "options": [
+                "FunctionalInterface",
+                "Serializable",
+                "Runnable",
+                "Comparator"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which statement converts integer to string?",
+            "options": [
+                "String.valueOf(123)",
+                "Integer.toString(123)",
+                "Both A and B",
+                "None"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which keyword is used for constants in interface?",
+            "options": [
+                "public static final",
+                "const",
+                "static final",
+                "final only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword allows a method to be abstract?",
+            "options": [
+                "abstract",
+                "virtual",
+                "interface",
+                "override"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which class provides random number generation?",
+            "options": [
+                "Random",
+                "Math",
+                "ThreadLocalRandom",
+                "Both A and C"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which statement defines a try-with-resources?",
+            "options": [
+                "try(Resource res = ...){ }",
+                "try{ } finally{ }",
+                "try{ } catch{ }",
+                "try(){}"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method compares two strings ignoring case?",
+            "options": [
+                "equalsIgnoreCase()",
+                "compare()",
+                "compareToIgnoreCase()",
+                "equals()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which interface is used for iteration?",
+            "options": [
+                "Iterator",
+                "Iterable",
+                "Enumeration",
+                "Collection"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is true about final class?",
+            "options": [
+                "Cannot be extended",
+                "Cannot have methods",
+                "Cannot have variables",
+                "Cannot be instantiated"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is true about static methods?",
+            "options": [
+                "Belong to class, not object",
+                "Cannot access static variables",
+                "Can only be abstract",
+                "Belong to object"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method is used to stop a thread?",
+            "options": [
+                "interrupt()",
+                "stop()",
+                "destroy()",
+                "kill()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method converts string to char array?",
+            "options": [
+                "toCharArray()",
+                "chars()",
+                "stringToChar()",
+                "convert()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which collection maintains insertion order?",
+            "options": [
+                "LinkedHashMap",
+                "HashMap",
+                "TreeMap",
+                "HashSet"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which collection sorts elements naturally?",
+            "options": [
+                "TreeSet",
+                "HashSet",
+                "ArrayList",
+                "LinkedList"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which statement converts string to double?",
+            "options": [
+                "Double.parseDouble('3.14')",
+                "Double.valueOf('3.14')",
+                "Both A and B",
+                "None"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which operator is used for conditional evaluation?",
+            "options": [
+                "?:",
+                "&&",
+                "||",
+                "=="
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these implements Map interface?",
+            "options": [
+                "HashMap",
+                "HashSet",
+                "ArrayList",
+                "LinkedList"
+            ],
+            "correct_index": 1
+        }
+    ],
+    "JavaScript": [
+        {
+            "question": "Which of these declares a variable?",
+            "options": [
+                "let",
+                "var",
+                "const",
+                "All of the above"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which method converts JSON string to object?",
+            "options": [
+                "JSON.parse()",
+                "JSON.stringify()",
+                "JSON.object()",
+                "JSON.toObject()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is a falsy value?",
+            "options": [
+                "0",
+                "1",
+                "'false'",
+                "[]"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "What does === operator check?",
+            "options": [
+                "Equality with type check",
+                "Equality without type check",
+                "Assignment",
+                "Reference equality only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method adds a new element at the end of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines a constant?",
+            "options": [
+                "const",
+                "let",
+                "var",
+                "constant"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method removes the last element from an array?",
+            "options": [
+                "pop()",
+                "push()",
+                "shift()",
+                "unshift()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these creates a new object?",
+            "options": [
+                "let obj = {}",
+                "let obj = new Object()",
+                "Both A and B",
+                "None"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which operator is used for string concatenation?",
+            "options": [
+                "+",
+                "&",
+                ".",
+                "concat() only"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these defines a function?",
+            "options": [
+                "function myFunc() {}",
+                "let myFunc = function() {}",
+                "const myFunc = () => {}",
+                "All of the above"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which method returns array length?",
+            "options": [
+                "array.length",
+                "array.size()",
+                "array.count",
+                "array.len()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method removes the first element from an array?",
+            "options": [
+                "shift()",
+                "unshift()",
+                "pop()",
+                "push()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword creates block-scoped variable?",
+            "options": [
+                "let",
+                "var",
+                "const",
+                "Both A and C"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which method adds element at the beginning of an array?",
+            "options": [
+                "unshift()",
+                "shift()",
+                "push()",
+                "pop()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which of these is used to check type?",
+            "options": [
+                "typeof",
+                "instanceof",
+                "type()",
+                "getType()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines a class?",
+            "options": [
+                "class",
+                "function",
+                "object",
+                "def"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns keys of an object?",
+            "options": [
+                "Object.keys()",
+                "Object.values()",
+                "Object.entries()",
+                "keys()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns values of an object?",
+            "options": [
+                "Object.values()",
+                "Object.keys()",
+                "Object.entries()",
+                "values()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns key-value pairs?",
+            "options": [
+                "Object.entries()",
+                "Object.keys()",
+                "Object.values()",
+                "entries()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs logical AND?",
+            "options": [
+                "&&",
+                "&",
+                "and",
+                "||"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator performs logical OR?",
+            "options": [
+                "||",
+                "&&",
+                "or",
+                "|"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword stops loop iteration?",
+            "options": [
+                "break",
+                "continue",
+                "exit",
+                "stop"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword skips to next iteration?",
+            "options": [
+                "continue",
+                "break",
+                "next",
+                "skip"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns substring?",
+            "options": [
+                "substring()",
+                "substr()",
+                "slice()",
+                "All of the above"
+            ],
+            "correct_index": 4
+        },
+        {
+            "question": "Which method converts number to string?",
+            "options": [
+                "toString()",
+                "String()",
+                "pause",
+                "wait"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method adds/removes elements in middle of array?",
+            "options": [
+                "splice()",
+                "slice()",
+                "push()",
+                "pop()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns a portion of array?",
+            "options": [
+                "slice()",
+                "splice()",
+                "subarray()",
+                "segment()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword is used for strict equality?",
+            "options": [
+                "===",
+                "==",
+                "is",
+                "equals"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method checks if array includes element?",
+            "options": [
+                "includes()",
+                "indexOf()",
+                "find()",
+                "contains()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method finds first element satisfying condition?",
+            "options": [
+                "find()",
+                "filter()",
+                "map()",
+                "forEach()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method creates new array with elements passing test?",
+            "options": [
+                "filter()",
+                "map()",
+                "find()",
+                "forEach()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method creates new array by transforming elements?",
+            "options": [
+                "map()",
+                "filter()",
+                "reduce()",
+                "forEach()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method executes function on each array element?",
+            "options": [
+                "forEach()",
+                "map()",
+                "filter()",
+                "reduce()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method reduces array to single value?",
+            "options": [
+                "reduce()",
+                "map()",
+                "filter()",
+                "forEach()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method merges two arrays?",
+            "options": [
+                "concat()",
+                "+ operator",
+                "Both A and B",
+                "merge()"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which keyword imports module?",
+            "options": [
+                "import",
+                "require",
+                "include",
+                "use"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method returns current date?",
+            "options": [
+                "new Date()",
+                "Date.now()",
+                "Both A and B",
+                "currentDate()"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which keyword deletes object property?",
+            "options": [
+                "delete",
+                "remove",
+                "undef",
+                "destroy"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which keyword defines default parameter?",
+            "options": [
+                "function fn(a=5) {}",
+                "function fn(a:5) {}",
+                "function fn(a default 5) {}",
+                "function fn(default a=5) {}"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator is used for nullish coalescing?",
+            "options": [
+                "??",
+                "||",
+                "&&",
+                "??="
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which operator is optional chaining?",
+            "options": [
+                "?.",
+                ".",
+                "->",
+                "::"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method parses integer from string?",
+            "options": [
+                "parseInt()",
+                "Number()",
+                "parseFloat()",
+                "All of the above"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method parses float from string?",
+            "options": [
+                "parseFloat()",
+                "Number()",
+                "parseInt()",
+                "All of the above"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method converts array to string?",
+            "options": [
+                "join()",
+                "toString()",
+                "Both A and B",
+                "stringify()"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which method splits string into array?",
+            "options": [
+                "split()",
+                "slice()",
+                "splice()",
+                "divide()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method trims whitespace from string?",
+            "options": [
+                "trim()",
+                "strip()",
+                "remove()",
+                "clean()"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which statement stops function execution?",
+            "options": [
+                "return",
+                "break",
+                "exit",
+                "stop"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question": "Which method replaces substring in string?",
+            "options": [
+                "replace()",
+                "replaceAll()",
+                "Both A and B",
+                "set()"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question": "Which keyword declares generator function?",
+            "options": [
+                "function*",
+                "generator",
+                "func*",
+                "gen"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

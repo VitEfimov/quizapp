@@ -1,0 +1,7 @@
+Attempting to read data_additional.json
+Error processing data_additional.json: Expecting value: line 1351 column 36 (char 37165)
+Attempting to read data_additional.json
+Error processing data_additional.json: Expecting ',' delimiter: line 1343 column 35 (char 36933)
+Attempting to read data_additional.json
+Loaded JSON. Keys: ['Python', 'Java', 'JavaScript']
+Added 148 new questions from additional data.

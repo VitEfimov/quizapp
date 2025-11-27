@@ -1,0 +1,555 @@
+{
+    "topic": "Python",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the output of the following code?\n\nx = [1,2,3]\ny = x\ny.append(4)\nprint(x)",
+            "options": [
+                "[1, 2, 3]",
+                "[1, 2, 3, 4]",
+                "[4, 1, 2, 3]",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 2,
+            "question": "Which of the following statements about Python's 'global' keyword is correct?",
+            "options": [
+                "It declares a variable as global inside a function.",
+                "It allows importing modules globally.",
+                "It automatically makes all variables global.",
+                "It is used to declare global constants."
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 3,
+            "question": "What is the output?\n\nprint(type(lambda x: x))",
+            "options": [
+                "<class 'function'>",
+                "<class 'lambda'>",
+                "<class 'object'>",
+                "<class 'method'>"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 4,
+            "question": "Which of these is NOT a valid Python data type?",
+            "options": [
+                "list",
+                "tuple",
+                "char",
+                "set"
+            ],
+            "correct_index": 3
+        },
+        {
+            "id": 5,
+            "question": "What is printed?\n\na = [1,2,3]\nprint(a[3])",
+            "options": [
+                "3",
+                "Error",
+                "None",
+                "0"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 6,
+            "question": "What is the output?\n\nprint(0.1 + 0.2 == 0.3)",
+            "options": [
+                "True",
+                "False",
+                "Error",
+                "0.3"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 7,
+            "question": "Which statement about Python lists is TRUE?",
+            "options": [
+                "Lists are immutable",
+                "Lists can contain elements of different types",
+                "Lists cannot contain other lists",
+                "List elements must be numbers"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 8,
+            "question": "What is the output?\n\nx = [1,2,3]\nprint(x * 2)",
+            "options": [
+                "[1, 2, 3, 1, 2, 3]",
+                "[2, 4, 6]",
+                "[1, 2, 3, 2]",
+                "Error"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 9,
+            "question": "Which is correct about Python dictionaries?",
+            "options": [
+                "Keys must be immutable",
+                "Keys can be lists",
+                "Values must be integers",
+                "Dictionaries are ordered in Python 3.5 and earlier"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 10,
+            "question": "What is printed?\n\ndef func(a, b=[]):\n    b.append(a)\n    return b\n\nprint(func(1))\nprint(func(2))",
+            "options": [
+                "[1] [2]",
+                "[1] [1, 2]",
+                "[1] [1]",
+                "[1, 2] [1, 2]"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 11,
+            "question": "Which statement is TRUE about Python sets?",
+            "options": [
+                "Sets can contain duplicate elements",
+                "Sets are unordered",
+                "Sets allow indexing",
+                "Sets are immutable"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 12,
+            "question": "What is printed?\n\nprint(bool('False'))",
+            "options": [
+                "False",
+                "True",
+                "Error",
+                "0"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 13,
+            "question": "What does the 'nonlocal' keyword do?",
+            "options": [
+                "Declares a variable in the nearest enclosing scope",
+                "Declares a global variable",
+                "Declares a constant",
+                "Creates a new local variable"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 14,
+            "question": "What is the output?\n\nx = [1,2,3]\nprint(list(map(lambda a: a*2, x)))",
+            "options": [
+                "[1, 2, 3]",
+                "[2, 4, 6]",
+                "[1, 4, 9]",
+                "[2, 3, 4]"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 15,
+            "question": "Which of these statements about Python functions is FALSE?",
+            "options": [
+                "Functions can return multiple values",
+                "Functions cannot be nested",
+                "Functions can be assigned to variables",
+                "Functions can be passed as arguments"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 16,
+            "question": "Which of these is correct about Python’s 'with' statement?",
+            "options": [
+                "It handles file opening and closing automatically",
+                "It starts a thread",
+                "It creates a class",
+                "It deletes a variable automatically"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 17,
+            "question": "What is printed?\n\nprint(type({}))",
+            "options": [
+                "<class 'dict'>",
+                "<class 'set'>",
+                "<class 'list'>",
+                "<class 'object'>"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 18,
+            "question": "Which of these is TRUE for Python strings?",
+            "options": [
+                "Strings are mutable",
+                "Strings can be indexed",
+                "Strings are unordered",
+                "Strings cannot be sliced"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 19,
+            "question": "Which statement is correct about Python’s memory management?",
+            "options": [
+                "Python uses automatic garbage collection",
+                "Programmers must free memory manually",
+                "Python does not support garbage collection",
+                "Memory is fixed and cannot grow dynamically"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 20,
+            "question": "Which of these is NOT a valid Python loop?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "nested for"
+            ],
+            "correct_index": 3
+        },
+        {
+            "id": 21,
+            "question": "What is printed?\n\nx = 5\ny = 2\nprint(x // y)",
+            "options": [
+                "2.5",
+                "2",
+                "3",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 22,
+            "question": "What is the output?\n\nprint({1,2,3} & {2,3,4})",
+            "options": [
+                "{1,2,3,4}",
+                "{2,3}",
+                "{1,4}",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 23,
+            "question": "Which of the following statements about Python modules is TRUE?",
+            "options": [
+                "Modules are Python files ending in .py",
+                "Modules must be compiled before use",
+                "Modules can contain only functions",
+                "Modules cannot import other modules"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 24,
+            "question": "Which of these keywords is used to define a class?",
+            "options": [
+                "class",
+                "def",
+                "struct",
+                "object"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 25,
+            "question": "What is printed?\n\nprint(0.1 + 0.2 == 0.3)",
+            "options": [
+                "True",
+                "False",
+                "Error",
+                "0.3"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 26,
+            "question": "Which of these is correct to catch multiple exceptions?",
+            "options": [
+                "except (TypeError, ValueError):",
+                "except TypeError & ValueError:",
+                "except TypeError | ValueError:",
+                "except TypeError, ValueError:"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 27,
+            "question": "Which of the following is TRUE about Python’s 'is' operator?",
+            "options": [
+                "Checks object identity",
+                "Checks equality of value",
+                "Checks type of object",
+                "Checks if variable is defined"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 28,
+            "question": "Which statement about Python’s 'try…except…else…finally' is TRUE?",
+            "options": [
+                "'else' executes if no exception occurs",
+                "'finally' executes only if exception occurs",
+                "'else' executes if exception occurs",
+                "Cannot use 'finally' with 'try…except'"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 29,
+            "question": "What is printed?\n\na = [1,2,3]\nprint(a[-1])",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "Error"
+            ],
+            "correct_index": 3
+        },
+        {
+            "id": 30,
+            "question": "Which of these is correct about Python functions?",
+            "options": [
+                "Functions can be recursive",
+                "Functions cannot have default arguments",
+                "Functions cannot return multiple values",
+                "Functions cannot be assigned to variables"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 31,
+            "question": "Which of the following statements about Python’s 'range()' is TRUE?",
+            "options": [
+                "range(5) generates numbers 0 through 4",
+                "range(5) generates numbers 1 through 5",
+                "range(5) generates numbers 0 through 5",
+                "range(5) generates 5 zeros"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 32,
+            "question": "Which of these is TRUE about Python strings?",
+            "options": [
+                "Strings are mutable",
+                "Strings support slicing",
+                "Strings can contain other strings as objects",
+                "Strings support arithmetic addition with numbers"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 33,
+            "question": "What is printed?\n\nx = [1,2,3]\nprint(x[-2])",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "Error"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 34,
+            "question": "Which of these statements about Python sets is TRUE?",
+            "options": [
+                "Sets are ordered collections",
+                "Sets do not allow duplicates",
+                "Sets allow indexing",
+                "Sets are immutable"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 35,
+            "question": "What is printed?\n\nprint(type([1,2,3]) is list)",
+            "options": [
+                "True",
+                "False",
+                "Error",
+                "None"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 36,
+            "question": "Which of the following statements about Python tuples is TRUE?",
+            "options": [
+                "Tuples are immutable",
+                "Tuples are mutable",
+                "Tuples cannot contain other tuples",
+                "Tuples do not support indexing"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 37,
+            "question": "What is printed?\n\nprint(list(range(2,10,3)))",
+            "options": [
+                "[2, 5, 8]",
+                "[2, 3, 4, 5, 6, 7, 8, 9]",
+                "[2, 5, 10]",
+                "[2, 6, 9]"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 38,
+            "question": "Which statement about Python’s 'import' is TRUE?",
+            "options": [
+                "You can import specific functions using 'from module import func'",
+                "You must always import all functions",
+                "Python does not support importing functions",
+                "You cannot alias imports"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 39,
+            "question": "What is printed?\n\ndef f(x, y=2):\n    return x*y\n\nprint(f(3))",
+            "options": [
+                "5",
+                "6",
+                "Error",
+                "3"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 40,
+            "question": "Which of these is TRUE about Python Boolean values?",
+            "options": [
+                "True is equivalent to 1 and False to 0",
+                "True is equivalent to 0 and False to 1",
+                "Python does not support Booleans",
+                "Booleans cannot be used in arithmetic operations"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 41,
+            "question": "Which of the following statements about Python lists is TRUE?",
+            "options": [
+                "Lists can be nested",
+                "Lists cannot contain other lists",
+                "Lists are immutable",
+                "Lists do not support iteration"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 42,
+            "question": "What is printed?\n\nprint(type({1,2,3}))",
+            "options": [
+                "<class 'list'>",
+                "<class 'set'>",
+                "<class 'dict'>",
+                "<class 'tuple'>"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 43,
+            "question": "Which of these is TRUE about Python dictionaries?",
+            "options": [
+                "Dictionary keys must be immutable",
+                "Dictionary keys must be numbers",
+                "Dictionary values must be immutable",
+                "Dictionary keys can be duplicated"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 44,
+            "question": "What is printed?\n\nx = [1,2,3]\nx.extend([4,5])\nprint(x)",
+            "options": [
+                "[1,2,3,4,5]",
+                "[[1,2,3],[4,5]]",
+                "[1,2,3]",
+                "[4,5]"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 45,
+            "question": "Which is TRUE about Python’s 'is' operator?",
+            "options": [
+                "Checks object identity",
+                "Checks value equality",
+                "Assigns a value",
+                "Raises an error"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 46,
+            "question": "What is printed?\n\nx = 10\ny = 5\nx, y = y, x\nprint(x, y)",
+            "options": [
+                "10 5",
+                "5 10",
+                "10 10",
+                "5 5"
+            ],
+            "correct_index": 2
+        },
+        {
+            "id": 47,
+            "question": "Which of these statements about Python’s 'del' keyword is TRUE?",
+            "options": [
+                "Deletes variables or items from lists/dictionaries",
+                "Deletes functions permanently from memory",
+                "Deletes modules from sys.path",
+                "Deletes objects only during garbage collection"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 48,
+            "question": "What is printed?\n\nx = 3\nprint(x**3)",
+            "options": [
+                "6",
+                "9",
+                "27",
+                "Error"
+            ],
+            "correct_index": 3
+        },
+        {
+            "id": 49,
+            "question": "Which of these is TRUE about Python file handling?",
+            "options": [
+                "'with' automatically closes the file",
+                "Files must always be closed manually",
+                "Python cannot read text files",
+                "Files must be binary"
+            ],
+            "correct_index": 1
+        },
+        {
+            "id": 50,
+            "question": "What is printed?\n\nx = 'Python'\nprint(x[1:4])",
+            "options": [
+                "Pyt",
+                "yth",
+                "ytho",
+                "yon"
+            ],
+            "correct_index": 2
+        }
+    ]
+}
