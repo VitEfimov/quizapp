@@ -11010,4 +11010,830 @@ export const quizData = [
     ],
     "answer": "function*"
   }
+,
+  {
+    "category": "Java",
+    "question": "Which keyword prevents a class from being inherited?",
+    "options": [
+      "static",
+      "final",
+      "sealed",
+      "protected"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "Java",
+    "question": "What does the 'static' keyword mean?",
+    "options": [
+      "Belongs to the class, not an instance",
+      "Variable becomes immutable",
+      "Method cannot be overridden",
+      "Class becomes abstract"
+    ],
+    "answer": "Belongs to the class, not an instance"
+  },
+  {
+    "category": "Java",
+    "question": "Which collection does NOT allow duplicates?",
+    "options": [
+      "ArrayList",
+      "HashSet",
+      "LinkedList",
+      "TreeMap"
+    ],
+    "answer": "HashSet"
+  },
+  {
+    "category": "Java",
+    "question": "Which class is the root of all Java objects?",
+    "options": [
+      "BaseClass",
+      "Object",
+      "Root",
+      "Default"
+    ],
+    "answer": "Object"
+  },
+  {
+    "category": "Java",
+    "question": "Which is a functional interface?",
+    "options": [
+      "Serializable",
+      "List",
+      "Runnable",
+      "InputStream"
+    ],
+    "answer": "Runnable"
+  },
+  {
+    "category": "Java",
+    "question": "Which Java version introduced var keyword?",
+    "options": [
+      "Java 6",
+      "Java 8",
+      "Java 10",
+      "Java 17"
+    ],
+    "answer": "Java 10"
+  },
+  {
+    "category": "Java",
+    "question": "Which keyword is used to create a subclass?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "answer": "extends"
+  },
+  {
+    "category": "Java",
+    "question": "Which exception is unchecked?",
+    "options": [
+      "IOException",
+      "SQLException",
+      "NullPointerException",
+      "ClassNotFoundException"
+    ],
+    "answer": "NullPointerException"
+  },
+  {
+    "category": "Java",
+    "question": "What is method overloading?",
+    "options": [
+      "Same name, same parameters",
+      "Same name, different parameters",
+      "Different name, same parameters",
+      "Different return types only"
+    ],
+    "answer": "Same name, different parameters"
+  },
+  {
+    "category": "Java",
+    "question": "Which stream is used to read bytes?",
+    "options": [
+      "FileReader",
+      "BufferedReader",
+      "FileInputStream",
+      "Scanner"
+    ],
+    "answer": "FileInputStream"
+  },
+  {
+    "category": "Java",
+    "question": "Which class is used for synchronized lists?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "Vector",
+      "Stack"
+    ],
+    "answer": "Vector"
+  },
+  {
+    "category": "Java",
+    "question": "What is a marker interface?",
+    "options": [
+      "Interface with exactly one method",
+      "Interface with no methods",
+      "Interface with only static methods",
+      "Interface with default methods"
+    ],
+    "answer": "Interface with no methods"
+  },
+  {
+    "category": "Java",
+    "question": "Which file contains external libraries?",
+    "options": [
+      "pom.xml",
+      "application.yaml",
+      "manifest.txt",
+      "settings.gradle"
+    ],
+    "answer": "pom.xml"
+  },
+  {
+    "category": "Java",
+    "question": "What is JVM responsible for?",
+    "options": [
+      "Interpreting Java bytecode",
+      "Compiling Java source code",
+      "Managing Maven dependencies",
+      "Rendering UI windows"
+    ],
+    "answer": "Interpreting Java bytecode"
+  },
+  {
+    "category": "Java",
+    "question": "Which collection maintains insertion order?",
+    "options": [
+      "HashSet",
+      "TreeSet",
+      "LinkedHashSet",
+      "PriorityQueue"
+    ],
+    "answer": "LinkedHashSet"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is the result of typeof null?",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "string"
+    ],
+    "answer": "object"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which keyword creates block-scoped variables?",
+    "options": [
+      "var",
+      "let",
+      "global",
+      "scope"
+    ],
+    "answer": "let"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What does === check?",
+    "options": [
+      "Value only",
+      "Type only",
+      "Value and type",
+      "Reference"
+    ],
+    "answer": "Value and type"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which method returns a new array?",
+    "options": [
+      "push()",
+      "pop()",
+      "map()",
+      "splice()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What is a Promise?",
+    "options": [
+      "Value that may be available later",
+      "Immediate return value",
+      "Blocking function",
+      "Looping structure"
+    ],
+    "answer": "Value that may be available later"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What does this refer to inside a method?",
+    "options": [
+      "Window",
+      "Global object",
+      "The object itself",
+      "null"
+    ],
+    "answer": "The object itself"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which operator spreads array elements?",
+    "options": [
+      "...",
+      "<-",
+      "::",
+      "@@"
+    ],
+    "answer": "..."
+  },
+  {
+    "category": "JavaScript",
+    "question": "Arrow functions do NOT have their own:",
+    "options": [
+      "return value",
+      "this",
+      "parameters",
+      "scope"
+    ],
+    "answer": "this"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which is NOT a JavaScript data type?",
+    "options": [
+      "symbol",
+      "boolean",
+      "class",
+      "undefined"
+    ],
+    "answer": "class"
+  },
+  {
+    "category": "JavaScript",
+    "question": "What does async function always return?",
+    "options": [
+      "value",
+      "promise",
+      "callback",
+      "string"
+    ],
+    "answer": "promise"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which function parses JSON?",
+    "options": [
+      "JSON.decode()",
+      "JSON.parse()",
+      "stringify()",
+      "evalJSON()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which method adds an element to the start of an array?",
+    "options": [
+      "push()",
+      "unshift()",
+      "shift()",
+      "append()"
+    ],
+    "answer": "unshift()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which method is used to delay execution?",
+    "options": [
+      "wait()",
+      "sleep()",
+      "setTimeout()",
+      "timeout()"
+    ],
+    "answer": "setTimeout()"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which comparison returns true? '5' == 5",
+    "options": [
+      "Always false",
+      "True due to type coercion",
+      "Throws error",
+      "True only in strict mode"
+    ],
+    "answer": "True due to type coercion"
+  },
+  {
+    "category": "JavaScript",
+    "question": "Which keyword stops code execution?",
+    "options": [
+      "stop",
+      "pause",
+      "break",
+      "halt"
+    ],
+    "answer": "break"
+  },
+  {
+    "category": "Python",
+    "question": "What is the main difference between list and tuple?",
+    "options": [
+      "List is immutable",
+      "Tuple is immutable",
+      "Tuple stores only numbers",
+      "List stores only strings"
+    ],
+    "answer": "Tuple is immutable"
+  },
+  {
+    "category": "Python",
+    "question": "Which keyword defines a generator?",
+    "options": [
+      "yield",
+      "return",
+      "generate",
+      "async"
+    ],
+    "answer": "yield"
+  },
+  {
+    "category": "Python",
+    "question": "Which type is unordered?",
+    "options": [
+      "list",
+      "tuple",
+      "set",
+      "dict"
+    ],
+    "answer": "set"
+  },
+  {
+    "category": "Python",
+    "question": "How to create a virtual environment?",
+    "options": [
+      "pip install venv",
+      "python -m venv env",
+      "venv create in env",
+      "mkvirtualenv env"
+    ],
+    "answer": "python -m venv env"
+  },
+  {
+    "category": "Python",
+    "question": "What does @staticmethod do?",
+    "options": [
+      "Creates class method",
+      "Creates static method without self",
+      "Creates private method",
+      "Creates async method"
+    ],
+    "answer": "Creates static method without self"
+  },
+  {
+    "category": "Python",
+    "question": "Which module handles JSON?",
+    "options": [
+      "json",
+      "serialize",
+      "pickle",
+      "convert"
+    ],
+    "answer": "json"
+  },
+  {
+    "category": "Python",
+    "question": "What is PEP8?",
+    "options": [
+      "Python compiler",
+      "Style guide",
+      "Package manager",
+      "Debugger"
+    ],
+    "answer": "Style guide"
+  },
+  {
+    "category": "Python",
+    "question": "What is __init__?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Package",
+      "Operator"
+    ],
+    "answer": "Constructor"
+  },
+  {
+    "category": "Python",
+    "question": "Which comparison is true?",
+    "options": [
+      "0 == False",
+      "1 == False",
+      "None == False",
+      "\"\" == None"
+    ],
+    "answer": "0 == False"
+  },
+  {
+    "category": "Python",
+    "question": "Which operator checks identity?",
+    "options": [
+      "==",
+      "!=",
+      "is",
+      "<>"
+    ],
+    "answer": "is"
+  },
+  {
+    "category": "Python",
+    "question": "Which keyword creates a lambda function?",
+    "options": [
+      "function",
+      "lambda",
+      "arrow",
+      "fn"
+    ],
+    "answer": "lambda"
+  },
+  {
+    "category": "Python",
+    "question": "What is Python's default recursion limit?",
+    "options": [
+      "100",
+      "1000",
+      "5000",
+      "Unlimited"
+    ],
+    "answer": "1000"
+  },
+  {
+    "category": "Python",
+    "question": "Which data structure uses key-value pairs?",
+    "options": [
+      "list",
+      "tuple",
+      "dict",
+      "set"
+    ],
+    "answer": "dict"
+  },
+  {
+    "category": "Python",
+    "question": "Which module is used for unit testing?",
+    "options": [
+      "pytest",
+      "unittest",
+      "testing",
+      "assert"
+    ],
+    "answer": "unittest"
+  },
+  {
+    "category": "Python",
+    "question": "Which library is used for numerical computing?",
+    "options": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "requests"
+    ],
+    "answer": "numpy"
+  },
+  {
+    "category": "SQL",
+    "question": "Which command deletes a table?",
+    "options": [
+      "REMOVE TABLE",
+      "DELETE TABLE",
+      "DROP TABLE",
+      "CUT TABLE"
+    ],
+    "answer": "DROP TABLE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which keyword filters rows?",
+    "options": [
+      "WHERE",
+      "GROUP BY",
+      "ORDER BY",
+      "HAVING"
+    ],
+    "answer": "WHERE"
+  },
+  {
+    "category": "SQL",
+    "question": "INNER JOIN returns:",
+    "options": [
+      "All rows",
+      "Matching rows only",
+      "Non-matching rows",
+      "Left rows only"
+    ],
+    "answer": "Matching rows only"
+  },
+  {
+    "category": "SQL",
+    "question": "Which is an aggregate function?",
+    "options": [
+      "WHERE()",
+      "SUM()",
+      "SELECT()",
+      "LIMIT()"
+    ],
+    "answer": "SUM()"
+  },
+  {
+    "category": "SQL",
+    "question": "What is a PRIMARY KEY?",
+    "options": [
+      "Nullable and unique",
+      "Unique + not null",
+      "Random ID",
+      "Foreign key"
+    ],
+    "answer": "Unique + not null"
+  },
+  {
+    "category": "SQL",
+    "question": "Which statement updates data?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "ALTER",
+      "SELECT"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which operator matches a pattern?",
+    "options": [
+      "LIKE",
+      "MATCH",
+      "SEARCH",
+      "FIND"
+    ],
+    "answer": "LIKE"
+  },
+  {
+    "category": "SQL",
+    "question": "Which clause groups rows?",
+    "options": [
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE",
+      "UNION"
+    ],
+    "answer": "GROUP BY"
+  },
+  {
+    "category": "SQL",
+    "question": "Which command adds a new column?",
+    "options": [
+      "ALTER TABLE ADD",
+      "INSERT COLUMN",
+      "NEW COLUMN",
+      "SET COLUMN"
+    ],
+    "answer": "ALTER TABLE ADD"
+  },
+  {
+    "category": "SQL",
+    "question": "Which join returns all rows from left + matches?",
+    "options": [
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
+    ],
+    "answer": "LEFT JOIN"
+  },
+  {
+    "category": "SQL",
+    "question": "What does DISTINCT do?",
+    "options": [
+      "Sorts results",
+      "Filters rows",
+      "Removes duplicates",
+      "Deletes rows"
+    ],
+    "answer": "Removes duplicates"
+  },
+  {
+    "category": "SQL",
+    "question": "Which function counts rows?",
+    "options": [
+      "COUNT()",
+      "ROWS()",
+      "LEN()",
+      "SUMROWS()"
+    ],
+    "answer": "COUNT()"
+  },
+  {
+    "category": "SQL",
+    "question": "Which clause sorts results?",
+    "options": [
+      "HAVING",
+      "ORDER BY",
+      "WHERE",
+      "GROUP BY"
+    ],
+    "answer": "ORDER BY"
+  },
+  {
+    "category": "SQL",
+    "question": "What does FOREIGN KEY enforce?",
+    "options": [
+      "Unique constraint",
+      "Not null constraint",
+      "Referential integrity",
+      "Primary key creation"
+    ],
+    "answer": "Referential integrity"
+  },
+  {
+    "category": "SQL",
+    "question": "Which statement creates a table?",
+    "options": [
+      "MAKE TABLE",
+      "INSERT TABLE",
+      "CREATE TABLE",
+      "NEW TABLE"
+    ],
+    "answer": "CREATE TABLE"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "What does @Autowired do?",
+    "options": [
+      "Creates a new object",
+      "Automatically injects dependencies",
+      "Cleans unused beans",
+      "Starts the Spring context"
+    ],
+    "answer": "Automatically injects dependencies"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation defines a REST controller?",
+    "options": [
+      "@Controller",
+      "@RestController",
+      "@Service",
+      "@Configuration"
+    ],
+    "answer": "@RestController"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which file contains configuration?",
+    "options": [
+      "application.properties",
+      "settings.gradle",
+      "pom.xml",
+      "environment.yaml"
+    ],
+    "answer": "application.properties"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation maps GET requests?",
+    "options": [
+      "@PostMapping",
+      "@GetMapping",
+      "@PutMapping",
+      "@RequestBody"
+    ],
+    "answer": "@GetMapping"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Spring Boot is used for:",
+    "options": [
+      "Building microservices quickly",
+      "Replacing Java",
+      "Compiling code",
+      "Managing UI logic"
+    ],
+    "answer": "Building microservices quickly"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation creates a bean?",
+    "options": [
+      "@Generate",
+      "@Bean",
+      "@Factory",
+      "@Init"
+    ],
+    "answer": "@Bean"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which embedded server is default?",
+    "options": [
+      "Tomcat",
+      "Jetty",
+      "Netty",
+      "Undertow"
+    ],
+    "answer": "Tomcat"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation enables JPA repositories?",
+    "options": [
+      "@EnableJpaRepositories",
+      "@Repository",
+      "@Entity",
+      "@Table"
+    ],
+    "answer": "@EnableJpaRepositories"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation maps a class to a database table?",
+    "options": [
+      "@Field",
+      "@Table",
+      "@Entity",
+      "@Column"
+    ],
+    "answer": "@Entity"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation enables scheduling?",
+    "options": [
+      "@EnableScheduling",
+      "@Cron",
+      "@Timed",
+      "@Task"
+    ],
+    "answer": "@EnableScheduling"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation is used inside a controller to return JSON?",
+    "options": [
+      "@ResponseBody",
+      "@JSON",
+      "@Body",
+      "@Payload"
+    ],
+    "answer": "@ResponseBody"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "What is Spring IOC?",
+    "options": [
+      "Object lifecycle management",
+      "Compilation engine",
+      "Logging utility",
+      "Database query engine"
+    ],
+    "answer": "Object lifecycle management"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation enables caching?",
+    "options": [
+      "@EnableCaching",
+      "@Cache",
+      "@Cacheable",
+      "@Cached"
+    ],
+    "answer": "@EnableCaching"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which annotation marks a class as a Spring-managed component?",
+    "options": [
+      "@Managed",
+      "@Component",
+      "@Spring",
+      "@Initialize"
+    ],
+    "answer": "@Component"
+  },
+  {
+    "category": "SpringBoot",
+    "question": "Which dependency includes Spring Boot web server?",
+    "options": [
+      "spring-boot-starter-test",
+      "spring-boot-starter-data-jpa",
+      "spring-boot-starter-web",
+      "spring-boot-starter-core"
+    ],
+    "answer": "spring-boot-starter-web"
+  }
 ];

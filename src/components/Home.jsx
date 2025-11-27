@@ -35,6 +35,13 @@ function Home() {
                         </button>
                     ))}
                 </div>
+
+                <div className="practice-section">
+                    <p>Looking for more challenges?</p>
+                    <a href="https://www.hackerrank.com/dashboard" target="_blank" rel="noopener noreferrer" className="practice-link">
+                        Practice on HackerRank
+                    </a>
+                </div>
             </div>
         </div>
     )
