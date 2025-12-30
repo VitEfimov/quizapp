@@ -11010,7 +11010,7 @@ export const quizData = [
     ],
     "answer": "function*"
   }
-,
+  ,
   {
     "category": "Java",
     "question": "Which keyword prevents a class from being inherited?",
@@ -13155,5 +13155,390 @@ export const quizData = [
       "CREATE VIEW Project_Managers AS JOIN Projects, Managers;"
     ],
     "answer": "CREATE VIEW Project_Managers AS SELECT ProjectName, ManagerName FROM Projects JOIN Managers ON Projects.ManagerID = Managers.ManagerID;"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What is the default response serialization format in FastAPI?",
+    "options": [
+      "XML",
+      "YAML",
+      "JSON",
+      "Plain text"
+    ],
+    "answer": "JSON"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which class is used to define response models?",
+    "options": [
+      "ResponseModel",
+      "Schema",
+      "Pydantic BaseModel",
+      "Serializer"
+    ],
+    "answer": "Pydantic BaseModel"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you validate path parameters?",
+    "options": [
+      "Using Pydantic models",
+      "Using function parameters with type hints",
+      "Using request.path()",
+      "Using decorators only"
+    ],
+    "answer": "Using function parameters with type hints"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which parameter type is used for optional query params?",
+    "options": [
+      "Optional[T]",
+      "Maybe[T]",
+      "Nullable[T]",
+      "QueryOptional[T]"
+    ],
+    "answer": "Optional[T]"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which object gives access to request metadata?",
+    "options": [
+      "Response",
+      "Request",
+      "Session",
+      "Context"
+    ],
+    "answer": "Request"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What is the purpose of response_model?",
+    "options": [
+      "Validate outgoing data",
+      "Validate incoming requests",
+      "Generate database schema",
+      "Cache responses"
+    ],
+    "answer": "Validate outgoing data"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you disable automatic docs?",
+    "options": [
+      "Remove FastAPI",
+      "Set docs_url=None",
+      "Delete OpenAPI",
+      "Disable Pydantic"
+    ],
+    "answer": "Set docs_url=None"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which decorator is used for dependency injection?",
+    "options": [
+      "@inject",
+      "@dependency",
+      "@Depends",
+      "Depends()"
+    ],
+    "answer": "Depends()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you declare a header parameter?",
+    "options": [
+      "Using Header()",
+      "Using Request.headers",
+      "Using @header decorator",
+      "Using Headers class"
+    ],
+    "answer": "Using Header()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What happens if validation fails?",
+    "options": [
+      "500 Internal Server Error",
+      "422 Unprocessable Entity",
+      "400 Bad Request",
+      "403 Forbidden"
+    ],
+    "answer": "422 Unprocessable Entity"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which middleware interface does FastAPI use?",
+    "options": [
+      "Django middleware",
+      "WSGI middleware",
+      "Starlette middleware",
+      "Custom Python middleware"
+    ],
+    "answer": "Starlette middleware"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you add middleware?",
+    "options": [
+      "app.use()",
+      "app.add_middleware()",
+      "app.middleware()",
+      "app.add_filter()"
+    ],
+    "answer": "app.add_middleware()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which lifespan event replaces startup/shutdown?",
+    "options": [
+      "@app.on_event",
+      "lifespan context manager",
+      "init()",
+      "start()"
+    ],
+    "answer": "lifespan context manager"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you return a custom Response type?",
+    "options": [
+      "Return dict only",
+      "Return Response instance",
+      "Use print()",
+      "Raise Exception"
+    ],
+    "answer": "Return Response instance"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which class is used for background tasks?",
+    "options": [
+      "AsyncTask",
+      "BackgroundTask",
+      "BackgroundTasks",
+      "TaskManager"
+    ],
+    "answer": "BackgroundTasks"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you enable CORS?",
+    "options": [
+      "Using @EnableCORS",
+      "Using CORSMiddleware",
+      "Using cors.json",
+      "Using headers manually"
+    ],
+    "answer": "Using cors.json"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What is APIRouter used for?",
+    "options": [
+      "Database routing",
+      "Organizing routes into modules",
+      "Request redirection",
+      "Load balancing"
+    ],
+    "answer": "Organizing routes into modules"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which command generates OpenAPI schema?",
+    "options": [
+      "fastapi openapi",
+      "GET /openapi.json",
+      "uvicorn openapi",
+      "app.schema()"
+    ],
+    "answer": "GET /openapi.json"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you secure endpoints?",
+    "options": [
+      "Using OAuth2, JWT, dependencies",
+      "Using only HTTPS",
+      "Using decorators only",
+      "Using firewall rules"
+    ],
+    "answer": "Using OAuth2, JWT, dependencies"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which exception is used to return HTTP errors?",
+    "options": [
+      "ValueError",
+      "HTTPError",
+      "HTTPException",
+      "FastAPIError"
+    ],
+    "answer": "HTTPException"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What is FastAPI primarily used for?",
+    "options": [
+      "Building high-performance REST APIs",
+      "Creating desktop GUI applications",
+      "Managing databases directly",
+      "Rendering frontend UI"
+    ],
+    "answer": "Building high-performance REST APIs"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which feature makes FastAPI very fast?",
+    "options": [
+      "Thread-based execution only",
+      "Use of Starlette and Pydantic",
+      "Manual request parsing",
+      "Built-in database engine"
+    ],
+    "answer": "Use of Starlette and Pydantic"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which decorator is used to define a GET endpoint?",
+    "options": [
+      "@app.fetch()",
+      "@app.route()",
+      "@app.get()",
+      "@app.read()"
+    ],
+    "answer": "@app.get()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What is Pydantic used for in FastAPI?",
+    "options": [
+      "Database ORM",
+      "Request/response data validation",
+      "Authentication only",
+      "Async execution"
+    ],
+    "answer": "Request/response data validation"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What does FastAPI automatically generate?",
+    "options": [
+      "Database schemas",
+      "OpenAPI/Swagger documentation",
+      "Frontend UI",
+      "Docker images"
+    ],
+    "answer": "OpenAPI/Swagger documentation"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which Python version is required for FastAPI?",
+    "options": [
+      "Python 2.7+",
+      "Python 3.6+",
+      "Python 3.7+",
+      "Python 3.10+ only"
+    ],
+    "answer": "Python 3.7+"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which server is commonly used to run FastAPI?",
+    "options": [
+      "Gunicorn only",
+      "Uvicorn",
+      "Apache",
+      "Tomcat"
+    ],
+    "answer": "Uvicorn"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you declare a request body model?",
+    "options": [
+      "Using @dataclass",
+      "Using Pydantic BaseModel",
+      "Using dictionary only",
+      "Using SQLAlchemy model"
+    ],
+    "answer": "Using Pydantic BaseModel"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What keyword is used to declare async endpoints?",
+    "options": [
+      "thread",
+      "await",
+      "async",
+      "parallel"
+    ],
+    "answer": "async"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How are query parameters declared?",
+    "options": [
+      "Inside JSON body",
+      "As function parameters",
+      "Using request.query",
+      "Using headers only"
+    ],
+    "answer": "As function parameters"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which decorator handles POST requests?",
+    "options": [
+      "@app.send()",
+      "@app.insert()",
+      "@app.post()",
+      "@app.create()"
+    ],
+    "answer": "@app.post()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "What does dependency injection in FastAPI use?",
+    "options": [
+      "@Autowired",
+      "Depends()",
+      "Inject()",
+      "Use()"
+    ],
+    "answer": "Depends()"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which status code represents successful creation?",
+    "options": [
+      "200",
+      "201",
+      "204",
+      "400"
+    ],
+    "answer": "201"
+  },
+  {
+    "category": "FastAPI",
+    "question": "How do you return custom HTTP status codes?",
+    "options": [
+      "Return tuple (data, code)",
+      "Use HTTPException or Response",
+      "Raise ValueError",
+      "Use print statement"
+    ],
+    "answer": "Use HTTPException or Response"
+  },
+  {
+    "category": "FastAPI",
+    "question": "Which command starts a FastAPI app with reload?",
+    "options": [
+      "python main.py",
+      "fastapi run",
+      "uvicorn main:app --reload",
+      "pip run fastapi"
+    ],
+    "answer": "uvicorn main:app --reload"
   }
 ];
